@@ -1,6 +1,6 @@
-﻿var name = "Ewa";
+﻿var name = "Alicja";
 bool men = true;
-var age = 30;
+var age = 19;
 
 if (men == false)
 {
@@ -15,19 +15,12 @@ if (men == false)
             Console.WriteLine("Kobieta 30 lat");
         }
     }
-    else
-    {
-     
-    }
+    
 }
 else
 {
     if (age == 18)
     {
         Console.WriteLine("niepelnoletni meszczyzna");
-    }
-    else
-    {
-    
     }
 }
