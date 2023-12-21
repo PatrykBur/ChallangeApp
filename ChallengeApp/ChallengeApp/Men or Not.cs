@@ -1,25 +1,21 @@
-﻿var name = "Alicja";
-bool men = true;
-var age = 19;
+﻿var name = "Ewa";
+bool men = false;
+var age = 29;
 
 if (men == false)
 {
-    if (age == 30)
+    if (name == "Ewa" && age == 30)
     {
-        if (name == "Ewa")
-        {
-            Console.WriteLine("Ewa lat 30");
-        }
-        else
-        {
-            Console.WriteLine("Kobieta 30 lat");
-        }
+        Console.WriteLine("Ewa lat 30");
     }
-    
+    else if (age < 30)
+    {
+        Console.WriteLine("Kobieta poniżej 30 lat");
+    }
 }
 else
 {
-    if (age == 18)
+    if (age < 18)
     {
         Console.WriteLine("niepelnoletni meszczyzna");
     }
