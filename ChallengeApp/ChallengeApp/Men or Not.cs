@@ -1,10 +1,10 @@
 ﻿var name = "Ewa";
 bool men = true;
-var wiek = 30;
+var age = 30;
 
 if (men == false)
 {
-    if (wiek >= 30)
+    if (age == 30)
     {
         if (name == "Ewa")
         {
@@ -17,17 +17,17 @@ if (men == false)
     }
     else
     {
-        Console.WriteLine(" ");
+     
     }
 }
 else
 {
-    if (wiek >= 18)
+    if (age == 18)
     {
-        Console.WriteLine(" ");
+        Console.WriteLine("niepelnoletni meszczyzna");
     }
     else
     {
-    Console.WriteLine("niepelnoletni meszczyzna");
+    
     }
 }
