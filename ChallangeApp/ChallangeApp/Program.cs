@@ -8,12 +8,12 @@ for (int i = 0; i < table.Length; i++)
 {
     int numberofdigits = 0;
     int digits = table[i];
-    int pozycjaCyfry = number.ToString().IndexOf(digits.ToString());
+    int digitPosition = number.ToString().IndexOf(digits.ToString());
 
-    while (pozycjaCyfry != -1)
+    while (digitPosition != -1)
     {
         numberofdigits++;
-        pozycjaCyfry = number.ToString().IndexOf(digits.ToString(), pozycjaCyfry + 1);
+        digitPosition = number.ToString().IndexOf(digits.ToString(), digitPosition + 1);
     }
     Console.WriteLine(table[i] + "->" + numberofdigits);
 }
